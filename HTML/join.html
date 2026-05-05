@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Join FitLife Gym</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">FitLife Gym</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+                <li><a href="join.html" class="btn-nav">Join Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="join-section">
+        <h1>Gym Membership Registration</h1>
+
+        <form action="#" method="post" class="join-form">
+            <label>Full Name</label>
+            <input type="text" name="fullName" required>
+
+            <label>Age</label>
+            <input type="number" name="age" required>
+
+            <label>Weight (kg)</label>
+            <input type="number" name="weight" required>
+
+            <label>Phone Number</label>
+            <input type="tel" name="phone" required>
+
+            <label>Email</label>
+            <input type="email" name="email" required>
+
+            <label>Membership Type</label>
+            <select name="membership" required>
+                <option value="">Select Membership</option>
+                <option>Monthly</option>
+                <option>3 Months</option>
+                <option>Yearly</option>
+            </select>
+
+            <label>Fitness Goal</label>
+            <select name="goal" required>
+                <option value="">Select Goal</option>
+                <option>Weight Loss</option>
+                <option>Muscle Gain</option>
+                <option>General Health</option>
+            </select>
+
+            <button type="submit" class="btn-primary">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2025 FitLife Gym. All rights reserved.</p>
+    </footer>
+
+    <script src="../JS/validation.js"></script>
+</body>
+</html>
